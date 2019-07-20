@@ -1,8 +1,8 @@
 package com.cyb.coolweather.db;
 
-import org.litepal.crud.LitePalSupport;
+import org.litepal.crud.DataSupport;
 
-public class City extends LitePalSupport{
+public class City extends DataSupport{
     private int id;
     private String cityName;
     private int cityCode;
